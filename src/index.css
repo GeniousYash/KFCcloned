@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color:rgb(0, 0, 0) !important;
+}
+
+@font-face {
+  font-family: 'National2Bold';
+  src: url('./Fonts/National2CondensedBold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'National2Medium';
+  src: url('./Fonts/National2Medium.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'National2Regular';
+  src: url('./Fonts/National2Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
